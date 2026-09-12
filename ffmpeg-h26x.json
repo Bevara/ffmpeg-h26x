@@ -1,20 +1,27 @@
 {
     "name": "ffmpeg-h26x",
-    "description": "ffmpeg H.261 and H.263 decoder",
-    "filters":["ffdec","rfh263"],
-    "help": "This is a reduced version of ffmpeg carrying the H.261 and H.263 decoders only, the two ITU-T video recommendations that predate MPEG-4 AVC and have no free standalone decoder.",
+    "description": "ffmpeg H.261, H.263 and Sorenson H.263 decoder",
+    "filters": [
+        "ffdec",
+        "rfh263"
+    ],
+    "help": "This is a reduced version of ffmpeg carrying the H.261, H.263 and Sorenson H.263 (FLV1) decoders only: the ITU-T video recommendations that predate MPEG-4 AVC, and the variant of H.263 that Flash Video shipped with.",
     "support": [
         "video"
     ],
-    "sources":"https://bevara.ddns.net/sources/ffmpeg-h26x.accessor",
-    "filter_source":{
-        "ffdec" : "ff_dec-h26x.c",
-        "rfh263" : "reframe_h263.c"
+    "sources": "https://bevara.ddns.net/sources/ffmpeg-h26x.accessor",
+    "filter_source": {
+        "ffdec": "ff_dec-h26x.c",
+        "rfh263": "reframe_h263.c"
     },
-    "Format": ["H261", "H263"],
-    "extension":{
-      "263" : "canvas",
-      "h263" : "canvas"
+    "Format": [
+        "H261",
+        "H263",
+        "FLV1"
+    ],
+    "extension": {
+        "263": "canvas",
+        "h263": "canvas"
     },
-    "licence_required":false
+    "licence_required": false
 }

@@ -468,6 +468,9 @@ static const GF_FF_CIDREG FF2GPAC_CodecIDs[] =
 	muxes - so the four character code of the format is used directly. Both
 	ends of the mapping are ours: avidmx tags the pid with the same value.*/
 	{AV_CODEC_ID_H261, GF_4CC('h','2','6','1'), 0},
+	/*Bevara: Sorenson H.263, the video Flash shipped with; same situation as
+	H.261, and flvdmx tags the pid with the same value.*/
+	{AV_CODEC_ID_FLV1, GF_4CC('F','L','V','1'), 0},
 	{AV_CODEC_ID_MJPEG, GF_CODECID_JPEG, 0},
 	{AV_CODEC_ID_PNG, GF_CODECID_PNG, 0},
 	{AV_CODEC_ID_JPEG2000, GF_CODECID_J2K, 0},

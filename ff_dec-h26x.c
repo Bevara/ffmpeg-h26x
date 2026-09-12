@@ -1483,8 +1483,8 @@ static const GF_FilterCapability FFDecodeCaps[] =
 GF_FilterRegister FFDecodeRegister = {
 	.name = "ffdec-h26x",
 	.version = LIBAVCODEC_IDENT,
-	GF_FS_SET_DESCRIPTION("FFMPEG H.261 and H.263 decoder")
-	GF_FS_SET_HELP("This filter decodes ITU-T H.261 and H.263 video streams using a reduced FFMPEG build carrying those two decoders only."
+	GF_FS_SET_DESCRIPTION("FFMPEG H.261, H.263 and Sorenson H.263 decoder")
+	GF_FS_SET_HELP("This filter decodes ITU-T H.261 and H.263, and Sorenson H.263 as found in FLV, using a reduced FFMPEG build carrying those decoders only."
 	)
 	.private_size = sizeof(GF_FFDecodeCtx),
 	SETCAPS(FFDecodeCaps),

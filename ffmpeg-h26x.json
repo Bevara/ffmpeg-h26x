@@ -23,5 +23,6 @@
         "263": "canvas",
         "h263": "canvas"
     },
-    "licence_required": false
+    "licence_required": false,
+    "using": ["solver_1"]
 }

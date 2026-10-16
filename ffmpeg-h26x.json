@@ -1,5 +1,6 @@
 {
     "name": "ffmpeg-h26x",
+    "version": "1.0.1",
     "description": "ffmpeg H.261, H.263 and Sorenson H.263 decoder",
     "filters": [
         "ffdec",

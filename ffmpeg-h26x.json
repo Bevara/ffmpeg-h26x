@@ -23,7 +23,6 @@
         "263": "canvas",
         "h263": "canvas"
     },
-    "licence_required": false,
     "using": ["solver_1"],
     "runtime": {
         "ffdec": {
@@ -36,5 +35,10 @@
                 }
             ]
         }
+    },
+    "patents": {
+        "status": "expired",
+        "note": "H.261, H.263, Sorenson H.263",
+        "checked": "2026-10-16"
     }
 }

@@ -24,7 +24,7 @@
         "263": "canvas",
         "h263": "canvas"
     },
-    "using": ["mm_solver_1.0.1"],
+    "using": ["mm_solver_1.0.1", "mm_solver_1.0.2"],
     "runtime": {
         "ffdec": {
             "outputs": [

@@ -1,6 +1,6 @@
 {
     "name": "ffmpeg-h26x",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "ffmpeg H.261, H.263 and Sorenson H.263 decoder",
     "filters": [
         "ffdec",
@@ -24,7 +24,7 @@
         "263": "canvas",
         "h263": "canvas"
     },
-    "using": ["solver_1"],
+    "using": ["mm_solver_1.0.1"],
     "runtime": {
         "ffdec": {
             "outputs": [
